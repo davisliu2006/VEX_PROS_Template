@@ -1,2 +1,2 @@
-# Vex_Pros_Template
-Vex Pros Template
+# VEX_PROS_Template
+VEX PROS Template
