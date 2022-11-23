@@ -10,7 +10,7 @@ static const char *btnmMap[] = {"Auton 1", "Auton 2", "Auton 3", "\n",
 	"Auton 4", "Auton 5", "\n", "Do Nothing", ""};
 
 /* Selector code when Red tab is pressed */
-lv_res_t redBtnmAction(lv_obj_t *btnm, const char *txt) {
+inline lv_res_t redBtnmAction(lv_obj_t *btnm, const char *txt) {
 	printf("red button: %s released\n", txt);
 	lv_theme_t *th = lv_theme_nemo_init(0, NULL);
 	lv_theme_set_current(th);
@@ -25,7 +25,7 @@ lv_res_t redBtnmAction(lv_obj_t *btnm, const char *txt) {
 
 
 /* Selector code when Blue tab is pressed */
-lv_res_t blueBtnmAction(lv_obj_t *btnm, const char *txt) {
+inline lv_res_t blueBtnmAction(lv_obj_t *btnm, const char *txt) {
 	printf("blue button: %s released\n", txt);
 	lv_theme_t *th = lv_theme_nemo_init(230, NULL);
 	lv_theme_set_current(th);
@@ -39,7 +39,7 @@ lv_res_t blueBtnmAction(lv_obj_t *btnm, const char *txt) {
 }
 
 /* Selector code for when Skills tab is pressed */
-lv_res_t skillsBtnAction(lv_obj_t *btn) {
+inline lv_res_t skillsBtnAction(lv_obj_t *btn) {
 	// lvgl theme
 	lv_theme_t *th = lv_theme_nemo_init(286, NULL);
 	lv_theme_set_current(th);
@@ -50,7 +50,7 @@ lv_res_t skillsBtnAction(lv_obj_t *btn) {
 }
 
 /* INITIALIZE SELECTOR */
-void selectorInit() {
+inline void selectorInit() {
 	// lvgl theme
 	lv_theme_t *th = lv_theme_nemo_init(286, NULL);
 	lv_theme_set_current(th);
