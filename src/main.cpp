@@ -1,4 +1,3 @@
-
 #include "globals.hpp"
 #include "selection.hpp"
 #include "lib/robotcontrol.hpp"
