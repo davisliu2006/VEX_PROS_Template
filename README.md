@@ -1,5 +1,5 @@
 # VEX_PROS_Template
 VEX PROS Template
 
-Incdlues:
+Includes:
 - autonomous selector
