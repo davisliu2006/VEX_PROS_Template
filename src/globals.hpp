@@ -1,5 +1,4 @@
-#ifndef GLOBALS_H
-#define GLOBALS_H
+#pragma once
 
 #include "../include/main.h"
 
@@ -11,5 +10,3 @@ enum AutonEnum {
     NOTHING = 10, SKILLS = 0
 };
 inline int autonSelection = SKILLS; // specifies the default auton selected
-
-#endif
