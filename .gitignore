@@ -1,0 +1,16 @@
+# folders
+.cache/
+.d/
+.vscode/
+bin/
+firmware/
+include/
+
+# files
+.DS_Store
+compile_commands.json
+temp.errors
+temp.log
+
+# extensions
+*.ini
