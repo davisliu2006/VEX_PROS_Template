@@ -1,7 +1,8 @@
 #include "globals.hpp"
 #include "selection.hpp"
-#include "lib/robotcontrol.hpp"
-#include "lib/autoncontrol.hpp"
+#include "lib/autonomous.hpp"
+#include "lib/opcontrol.hpp"
+#include "route/route.hpp"
 
 /**
  * Runs initialization code. This occurs as soon as the program is started.
@@ -44,8 +45,8 @@ void competition_initialize() {}
  */
 void autonomous() {
 	switch (autonSelection) {
-		case RED_1: {/*insert auton function*/ break;}
-		case BLUE_1: {/*insert auton function*/ break;}
+		case RED_1: {route::route1(); break;}
+		case BLUE_1: {route::route1(); break;}
 		case RED_2: {/*insert auton function*/ break;}
 		case BLUE_2: {/*insert auton function*/ break;}
 		case RED_3: {/*insert auton function*/ break;}
@@ -72,7 +73,5 @@ void autonomous() {
  * task, not resume it from where it left off.
  */
 void opcontrol() {
-	while (true) {
-
-	}
+    opcontrol_start();
 }
