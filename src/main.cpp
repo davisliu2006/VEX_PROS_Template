@@ -47,15 +47,15 @@ void autonomous() {
 	switch (autonSelection) {
 		case RED_1: {route::route1(); break;}
 		case BLUE_1: {route::route1(); break;}
-		case RED_2: {/*insert auton function*/ break;}
-		case BLUE_2: {/*insert auton function*/ break;}
-		case RED_3: {/*insert auton function*/ break;}
-		case BLUE_3: {/*insert auton function*/ break;}
-		case RED_4: {/*insert auton function*/ break;}
-		case BLUE_4: {/*insert auton function*/ break;}
-		case RED_5: {/*insert auton function*/ break;}
-		case BLUE_5: {/*insert auton function*/ break;}
-		case SKILLS: {/*insert auton function*/ break;}
+		case RED_2: {break;}
+		case BLUE_2: {break;}
+		case RED_3: {break;}
+		case BLUE_3: {break;}
+		case RED_4: {break;}
+		case BLUE_4: {break;}
+		case RED_5: {break;}
+		case BLUE_5: {break;}
+		case SKILLS: {break;}
 	}
 }
 
