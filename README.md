@@ -1,5 +1,5 @@
 # VEX_PROS_Template
-VEX PROS Template
+Basic VEX PROS Template
 
 Includes:
 - basic program structure
